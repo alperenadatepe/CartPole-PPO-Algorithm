@@ -9,7 +9,7 @@ class App:
         view_manager = ViewManager()
         
         if view_manager.buttons["train_button"]:
-            trainer = Trainer(environment_name = 'MountainCar-v0', 
+            trainer = Trainer(environment_name = 'CartPole-v0', 
                             batch_size = view_manager.inputs["batch_size"], 
                             num_of_epochs = view_manager.inputs["num_of_epochs"], 
                             num_of_games = view_manager.inputs["num_of_games"], 
